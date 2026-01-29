@@ -1,0 +1,53 @@
+.page-five.content {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(193, 108, 56);
+}
+
+.page-five .greeting-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.page-five .greeting-section .title-h2 {
+  font-weight: 500;
+}
+
+.page-five .greeting-section .title-h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.page-five .logo-section {
+  position: fixed;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-five .logo-section .logo-img {
+  object-fit: contain;
+}
+
+.page-five .contact-section {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.page-five .contact-section .contact {
+  display: flex;
+}
+
+.page-five .contact-section svg {
+  font-size: 2rem;
+}

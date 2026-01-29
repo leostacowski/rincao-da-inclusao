@@ -1,0 +1,90 @@
+.page-four.content {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(193, 108, 56);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-four .title-h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.page-four .title-h2 {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.page-four .title-section {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.3rem;
+  padding-top: 2rem;
+}
+
+.page-four .quota-section {
+  display: flex;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 100%;
+  position: fixed;
+}
+
+.page-four .quota-section .quota {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1rem;
+  border: rgba(255, 255, 255, 0.6) solid 2px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.page-four .quota-section .quota .title-h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.page-four .quota-section .quota .title-h3 {
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 0;
+  font-style: italic;
+}
+
+.page-four .quota-section .quota .final-paragraph {
+  font-style: italic;
+  font-weight: 500;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.page-four .observations {
+  display: flex;
+  align-items: flex-end;
+  text-align: justify;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10rem;
+  width: 60%;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.page-four .observations .observation {
+  font-weight: 500;
+  font-style: italic;
+}

@@ -1,0 +1,44 @@
+.page-two.content {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: rgb(193, 108, 56);
+}
+
+.page-two .watermark-section {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 6rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  opacity: 0.6;
+}
+
+.page-two .watermark-section .logo-img {
+  height: 100%;
+}
+
+.page-two .description-section {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.page-two .column {
+  height: fit-content;
+}
+
+.page-two .column .title {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.page-two .column .paragraph {
+  font-weight: 600;
+  text-align: justify;
+}
