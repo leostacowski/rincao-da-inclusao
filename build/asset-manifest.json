@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.502053cb.css",
+    "main.js": "/static/js/main.e2b705a1.js",
+    "static/media/background-a.png": "/static/media/background-a.eb2813b67a57fc82f9ea.png",
+    "static/media/bazana_logo.png": "/static/media/bazana_logo.c26351f311ca694451e8.png",
+    "static/media/instagram.svg": "/static/media/instagram.e1e2b9e6a775981dfcbb4ae4244d69d0.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.1c0efcce542ea4258a1bdd7f4365bfbd.svg",
+    "static/media/rincao_logo_hor_colored.png": "/static/media/rincao_logo_hor_colored.160ebf459e7dc0c8e0fa.png",
+    "static/media/form.svg": "/static/media/form.98fabef9b983145f26c6e4dc48f337b9.svg",
+    "static/media/rincao_logo_ver_white.png": "/static/media/rincao_logo_ver_white.0bff7f37cd3b53ce67b6.png",
+    "static/media/rincao_logo_hor_white.png": "/static/media/rincao_logo_hor_white.b420a2f1d305e676698d.png",
+    "index.html": "/index.html",
+    "main.502053cb.css.map": "/static/css/main.502053cb.css.map",
+    "main.e2b705a1.js.map": "/static/js/main.e2b705a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.502053cb.css",
+    "static/js/main.e2b705a1.js"
+  ]
+}
