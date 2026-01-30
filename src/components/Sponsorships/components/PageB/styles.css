@@ -1,0 +1,85 @@
+.page.b {
+  color: white;
+}
+
+.page.b .content-wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.page.b .content-wrapper .background-image-wrapper {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.page.b .content-wrapper .background-image-wrapper .background-image {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../../../assets/backgrounds/background-a.png);
+  filter: grayscale(1) brightness(1);
+  background-position: center;
+  background-position-y: 0%;
+  z-index: 1;
+  zoom: 120%;
+}
+
+.page.b .content-wrapper .background-image-wrapper .overlay {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.page.b .content-wrapper .column-wrapper {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2rem 2rem auto 2rem;
+}
+
+.page.b .content-wrapper .column-wrapper .column {
+  text-align: justify;
+  width: calc(50% - 1rem);
+}
+
+.page.b .content-wrapper .column-wrapper .column h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.page.b .content-wrapper .watermark-wrapper {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.page.b .content-wrapper .watermark-wrapper .watermark {
+  position: absolute;
+  z-index: 3;
+  bottom: 2rem;
+  left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.page.b .content-wrapper .watermark-wrapper .watermark img {
+  object-fit: contain;
+  width: 15%;
+}
+
+.page.b .content-wrapper .watermark-wrapper .watermark img.bazana-logo {
+  border-radius: 24px 8px;
+}

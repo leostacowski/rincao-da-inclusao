@@ -7,32 +7,3 @@ html {
 body {
   margin: 0;
 }
-
-hr {
-  width: 100%;
-  color: rgba(255, 255, 255, 0.6);
-  opacity: 0.6;
-  margin-bottom: 0;
-}
-
-.p-0 {
-  padding: 0;
-}
-
-.m-0 {
-  margin: 0;
-}
-
-.watermark {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  height: 6rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-  opacity: 0.6;
-}
-
-.watermark img {
-  height: 100%;
-}
