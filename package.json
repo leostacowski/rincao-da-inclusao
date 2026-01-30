@@ -2,6 +2,7 @@
   "name": "rincao-da-inclusao",
   "version": "0.2.0",
   "private": false,
+  "homepage": "/rincao-da-inclusao/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
     "@fortawesome/free-brands-svg-icons": "^7.1.0",
