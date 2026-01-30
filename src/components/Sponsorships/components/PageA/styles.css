@@ -1,0 +1,106 @@
+.page.a {
+  background-color: rgb(193, 108, 56);
+  color: white;
+}
+
+.page.a .logo-wrapper {
+  position: relative;
+}
+
+.page.a .logo-wrapper .logo {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page.a .logo-wrapper .logo .content {
+  display: flex;
+  flex-flow: column;
+}
+
+.page.a .logo-wrapper .logo .content img {
+  height: 18rem;
+  object-fit: contain;
+}
+
+.page.a .logo-wrapper .logo .content .contact {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.page.a .logo-wrapper .logo .content .contact * {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.page.a .logo-wrapper .logo .content .contact * svg {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.page.a .logo-wrapper .logo .content .contact * h4 {
+  margin: 0;
+}
+
+.page.a .title-wrapper {
+  position: relative;
+}
+
+.page.a .title-wrapper .title {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.page.a .title-wrapper .title .content {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.page.a .title-wrapper .title .content * {
+  margin: 0;
+}
+
+.page.a .title-wrapper .title .content h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.page.a .title-wrapper .title .content h2 {
+  font-weight: 500;
+}
+
+.page.a .watermark-wrapper {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.page.a .watermark-wrapper .watermark {
+  position: absolute;
+  z-index: 3;
+  bottom: 2rem;
+  left: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.page.a .watermark-wrapper .watermark img {
+  width: 15%;
+  object-fit: contain;
+  border-radius: 24px 8px;
+}

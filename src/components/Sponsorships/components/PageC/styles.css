@@ -1,0 +1,122 @@
+.page.c {
+  color: rgb(193, 108, 56);
+  background-color: white;
+}
+
+.page.c .content-wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.page.c .content-wrapper .title-wrapper {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page.c .content-wrapper .title-wrapper .title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.page.c .content-wrapper .title-wrapper .title * {
+  margin: 0;
+}
+
+.page.c .content-wrapper .title-wrapper .title h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.page.c .content-wrapper .title-wrapper .title h2 {
+  font-weight: 500;
+}
+
+.page.c .content-wrapper .quota-wrapper {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page.c .content-wrapper .quota-wrapper .quota {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 55%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  gap: 2rem;
+}
+
+.page.c .content-wrapper .quota-wrapper .quota .card {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  box-shadow: 8px 8px rgba(193, 108, 56, 0.25);
+  border: rgba(193, 108, 56, 0.5) 2px solid;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.page.c .content-wrapper .quota-wrapper .quota .card h2 {
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.page.c .content-wrapper .quota-wrapper .quota .card h3 {
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+}
+
+.page.c .content-wrapper .quota-wrapper .quota .card h4 {
+  font-weight: 600;
+  text-align: center;
+  height: 25%;
+  margin-top: 1rem;
+}
+
+.page.c .content-wrapper .quota-wrapper .quota .card hr {
+  border: rgba(193, 108, 56, 0.5) 1px solid;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.page.c .content-wrapper .watermark-wrapper {
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+}
+
+.page.c .content-wrapper .watermark-wrapper .watermark {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.page.c .content-wrapper .watermark-wrapper .watermark img {
+  object-fit: contain;
+  width: 15%;
+}
+
+.page.c .content-wrapper .watermark-wrapper .watermark img.bazana-logo {
+  border-radius: 24px 8px;
+}

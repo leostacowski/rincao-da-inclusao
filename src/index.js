@@ -2,11 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
-import One from './components/PageOne'
-import Two from './components/PageTwo'
-import Three from './components/PageThree'
-import Four from './components/PageFour'
-import Five from './components/PageFive'
+import Sponsorships from './components/Sponsorships'
 
 import './index.css'
 
@@ -16,35 +12,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route
           path="*"
-          element={<One />}
+          element={<Sponsorships />}
         />
         <Route
-          path="/print"
-          element={
-            <>
-              <One />
-              <Two />
-              <Three />
-              <Four />
-              <Five />
-            </>
-          }
-        />
-        <Route
-          path="/two"
-          element={<Two />}
-        />
-        <Route
-          path="/three"
-          element={<Three />}
-        />
-        <Route
-          path="/four"
-          element={<Four />}
-        />
-        <Route
-          path="/five"
-          element={<Five />}
+          path="/sponsorships"
+          element={<Sponsorships />}
         />
       </Routes>
     </BrowserRouter>
