@@ -1,0 +1,32 @@
+@use '../../index.scss' as vars;
+
+#NavBar {
+  height: calc(100% - (vars.$actions_size + (vars.$actions_padding * 2)));
+  background-color: vars.$colors_secondary;
+  color: vars.$colors_light;
+  position: absolute;
+  z-index: 2;
+  top: calc(vars.$actions_size + (vars.$actions_padding * 2));
+  overflow-y: auto;
+  overflow-x: hidden;
+  visibility: hidden;
+
+  #Content {
+    height: fit-content;
+    min-width: 50vw;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: calc(vars.$actions_padding * 2);
+    gap: vars.$actions_padding;
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  &.show {
+    visibility: visible;
+  }
+}
